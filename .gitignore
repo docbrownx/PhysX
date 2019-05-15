@@ -1,0 +1,62 @@
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Generated files
+*.suo
+.suo
+*.VC.db
+*.VC.opendb
+*.cache
+*.error
+*.vcxproj.user
+
+.vs/
+
+physx/include/PxConfig.h
+
+physx/compiler/vc14win32
+physx/compiler/vc15win32
+physx/bin
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+*.suo
+src/.vs/Supernova/v14/.suo
