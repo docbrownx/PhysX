@@ -229,7 +229,7 @@ template <>
 class D3DTraits<ID3D11RasterizerState>
 {
 public:
-	typedef std::tr1::tuple<D3D11_FILL_MODE, D3D11_CULL_MODE, int> key_type;
+	typedef std::tuple<D3D11_FILL_MODE, D3D11_CULL_MODE, int> key_type;
 	typedef ID3D11RasterizerState*                      value_type;
 	static D3DType getType() { return D3DTypes::STATE_RASTERIZER; }
 };

@@ -290,7 +290,7 @@ private:
 	ID3D11Texture2D*                 m_d3dRenderTargetBuffer;
 	ID3D11RenderTargetView*          m_d3dRenderTargetView;
 
-	std::tr1::tuple<D3D11_FILL_MODE, D3D11_CULL_MODE, int> m_boundRasterizerStateKey;
+	std::tuple<D3D11_FILL_MODE, D3D11_CULL_MODE, int> m_boundRasterizerStateKey;
 
 	RendererMaterialInstance*        m_boundMaterial;
 

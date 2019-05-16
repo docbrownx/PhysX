@@ -75,7 +75,7 @@
 #include <deque>
 
 using namespace SampleRenderer;
-using std::tr1::get;
+using std::get;
 
 void SampleRenderer::convertToD3D11(PxVec3& dxcolor, const RendererColor& color)
 {
